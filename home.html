@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/multiitem-slider.css">
+
+    <!-- ajax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+  </head>
+  
+
+
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/Logo.png" alt="" style="height:80px; width: 300px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+                  </svg>
+                  Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="lights.html">1ply furniture</a></li>
+                  <li><a class="dropdown-item" href="#">Home decor</a></li>
+                  <li><a class="dropdown-item" href="#">Furnishings</a></li>
+                  <li><a class="dropdown-item" href="#">Lighting</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Media
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Exhibitions</a></li>
+                  <li><a class="dropdown-item" href="#">Lectures</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact2.html">Contact Us</a>
+              </li>
+              <li class="position-absolute top-50 end-0 translate-middle-y ps-5">
+                <a href="cart.html"> <img src="images/cart.png" width="30px" height="30px" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a  class="nav-link"  href="login.html">Login </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+    
+      <!-- carousel start -->
+      <div class="container mt-5">
+          <div class="row">
+              <div class="col-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/1.png" class="d-block w-100" alt="..." style="width: 336; height: 280;" >
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/1.png" class="d-block w-100" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/1.png" class="d-block w-100" alt="...">
+                        
+                      </div>
+                    </div>
+                    
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" data-bs-slide="prev">
+                      <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" data-bs-slide="next">
+                      <i class="fa fa-angle-right"></i>
+                    </a>
+                   
+                   
+                    
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- carousel end -->
+
+     
+
+      <!-- aboutus start-->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-2">
+            <h3 class="text-warning">About us</h3>
+          </div>
+          <div class="col-10 text-justify">
+            <p>1ply designs is one of India's leading award-winning Architecture and Urban Design practices with offices in Mumbai, Bengaluru and New Delhi. The firm reinterprets regional architectural roots and consistently employs passive design solutions for a unique contextual language. Morphogenesis is the only firm in the WA100 list of the world's largest Architecture </p>
+          </div>          
+        </div>
+      </div>
+      <!-- aboutus end-->
+
+      <!-- hr tag start -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="hrdivider">
+            <hr/>            
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- hr tag emd -->
+
+      
+       <!-- products start -->
+      <div class="container">
+        <div class="row mb-3">
+          <h5 class="card-title fw-bold text-center text-decoration-underline">PRODUCTS</h5>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/row3-1.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center">LIGHTING</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/row3-2.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center">FURNISHING</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/row3-3.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center">1PLY FURNITURE</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/row3-4.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-center">HOME DECOR</h5>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- products end -->
+
+       <!-- hr tag start -->
+       <div class="container mt-5">
+        <div class="row">
+          <div class="hrdivider">
+            <hr/>            
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- hr tag emd -->
+
+       <!-- featured products start -->
+       <div class="container">
+        <div class="row mb-3">
+          <h5 class="card-title fw-bold text-center text-decoration-underline">LATEST PRODUCTS</h5>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2  row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/offers1.JPG"
+                class="card-offer-img"
+                alt="..."/>              
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/offers2.JPG"
+                class="card-offer-img"
+                alt="..."/>              
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/offers3.JPG"
+                class="card-offer-img"
+                alt="..."/>              
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/offers4.JPG"
+                class="card-offer-img"
+                alt="..."/>              
+            </div>
+          </div>          
+          
+        </div>
+      </div>
+       <!-- fesatured products end -->
+
+        <!-- hr tag start -->
+        <div class="container mt-5">
+          <div class="row">
+            <div class="hrdivider">
+              <hr/>            
+            </div>
+          </div>
+        </div>
+        
+        
+        <!-- hr tag emd -->
+
+
+       <!-- whats new  start-->
+       <div class="container mt-5">
+        <div class="row mb-3">
+          <h5 class="card-title fw-bold text-center text-decoration-underline">WHAT'S NEW</h5>
+        </div>
+        <div class=" row row-cols-1 row-cols-md-2 g-4 ">
+          <div class="col">
+            <p class="fs-6 fw-bold">WORK FROM HOME, THE NEW NORMAL</p>
+            
+            <p class="lh-base text-justify mt-4">
+              1ply offers an amazing work from home furniture collection. You will find work desks, some of the best ergonomic chairs, laptop tables, study tables to make a mini office in your home. So, which one are you looking at?
+             </p>
+             <div class='explore-now mt-4'>
+               Explore now
+             </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/whatsnew.JPG" alt="">
+            </div>            
+          </div>
+        </div>
+       </div>
+       <!-- whats new  end-->
+
+        <!-- hr tag start -->
+        <div class="container mt-5">
+          <div class="row">
+            <div class="hrdivider">
+              <hr/>            
+            </div>
+          </div>
+        </div>     
+        
+        <!-- hr tag emd -->
+
+       <!-- multi-item image slider start -->
+       <div class="container-xl">
+        <div class="row mb-3">
+          <h5 class="card-title fw-bold text-center text-decoration-underline">MEDIA</h5>
+        </div>
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>   
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="images/slider1.JPG" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Publications</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                      </div>						
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="images/slider2.JPG" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Awards</h4>
+                        <p>Vivamus fermentum in arcu in aliquam. Quisque aliq.</p>
+                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                      </div>						
+                    </div>
+                  </div>				
+                  <div class="col-sm-4">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="images/slider3.JPG" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Lectures</h4>
+                        <p>Convallis eget pretium eu, bibendum non leo. Proin s.</p>
+                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                      </div>						
+                    </div>					
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="images/slider1.JPG" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Lecture</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Na.</p>
+                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                      </div>						
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="images/slider2.JPG" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Publication</h4>
+                        <p>Vivamus fermentum in arcu in aliquam. Quisque aliqua porta odi</p>
+                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                      </div>						
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="images/slider3.JPG" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Article</h4>
+                        <p>Convallis eget pretium eu, bibendum non leo. Proin susc</p>
+                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                      </div>						
+                    </div>					
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="images/slider1.JPG" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Award</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                      </div>						
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="images/slider2.JPG" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Events</h4>
+                        <p>Vivamus fermentum in arcu in aliquam. Quisque al</p>
+                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                      </div>						
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="images/slider3.JPG" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Article</h4>
+                        <p>Convallis eget pretium eu, bibendum non leo. Proin susc ip</p>
+                        <a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+                      </div>						
+                    </div>					
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+       <!-- multi-item image slider end -->
+
+
+       <!-- hr tag start -->
+       <div class="container mt-5">
+        <div class="row">
+          <div class="hrdivider">
+            <hr/>            
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- hr tag emd -->
+
+
+      <!-- banner start -->
+      <div class="container">
+        <div class="row mb-3">
+          <h5 class="card-title fw-bold text-center text-decoration-underline">OUR DESIGN PHILOSOPHY</h5>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card border-0">
+              <img
+                src="images/banner1.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  border-0">
+              <img
+                src="images/banner2.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              </div>
+          </div>
+          <div class="col">
+            <div class="card  border-0">
+              <img
+                src="images/banner3.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  border-0">
+              <img
+                src="images/banner4.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner end -->      
+
+       <!-- hr tag start -->
+       <div class="container mt-5">
+        <div class="row">
+          <div class="hrdivider">
+            <hr/>            
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- hr tag emd -->
+
+
+      <!-- testimonials strat -->
+      <div class="container">
+        <div class="row mb-3">
+          <h5 class="card-title fw-bold text-center text-decoration-underline">TESTIMONIALS</h5>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <!-- Section: Testimonials v.3 -->
+<section class="team-section text-center my-5">
+
+  
+  
+
+  <!--Grid row-->
+  <div class="row text-center">
+
+    <!--Grid column-->
+    <div class="col-md-4 mb-md-0 mb-5">
+
+      <div class="testimonial">
+        <!--Avatar-->
+        <div class="avatar mx-auto">
+          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
+        </div>
+        <!--Content-->
+        <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
+        <h6 class="font-weight-bold blue-text my-3">Designer</h6>
+        <p class="font-weight-normal dark-grey-text">
+          <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+          eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+        <!--Review-->
+        <div class="orange-text">
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star-half-alt"> </i>
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-md-4 mb-md-0 mb-5">
+
+      <div class="testimonial">
+        <!--Avatar-->
+        <div class="avatar mx-auto">
+          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle z-depth-1 img-fluid">
+        </div>
+        <!--Content-->
+        <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
+        <h6 class="font-weight-bold blue-text my-3">client</h6>
+        <p class="font-weight-normal dark-grey-text">
+          <i class="fa fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam
+          corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
+        <!--Review-->
+        <div class="orange-text">
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star"> </i>
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-md-4">
+
+      <div class="testimonial">
+        <!--Avatar-->
+        <div class="avatar mx-auto">
+          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid">
+        </div>
+        <!--Content-->
+        <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
+        <h6 class="font-weight-bold blue-text my-3">designer</h6>
+        <p class="font-weight-normal dark-grey-text">
+          <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+        <!--Review-->
+        <div class="orange-text">
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star"> </i>
+          <i class="fa fa-star"> </i>
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+  <!--Grid row-->
+
+</section>
+<!-- Section: Testimonials v.3 -->
+          </div>
+        </div>
+      </div>
+      <!-- testimonials end -->
+
+
+  <!-- Footer -->
+<footer class="bg-dark text-white text-center text-lg-start ">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Footer Content</h5>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+          voluptatem veniam, est atque cumque eum delectus sint!
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">Facebook</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Instagram</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Google plus</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">Blog article</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Blog article</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Blog article</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Blog article</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <form action="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-auto mb-4 mb-md-0">
+          <p class="pt-2"><strong>Sign up for our newsletter</strong></p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-5 col-12 mb-4 mb-md-0">
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form5Example2" class="form-control" />
+            <label class="form-label" for="form5Example2">Email address</label>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-auto mb-4 mb-md-0">
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary mb-4">Subscribe</button>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </form>
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+      <!-- script js -->
+      <script src="js/jquery-3.5.1.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/multiitem-slider.js"></script>
+</body>
+</html>

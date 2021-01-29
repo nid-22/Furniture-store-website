@@ -1,0 +1,37 @@
+.hrdivider {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hrdivider span {
+    position: absolute;
+    top: -11px;
+    background: #fff;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+.card-offer-img:hover{
+  transform: scale(1.1);
+  transition-duration: 2s;
+}
+  
+.explore-now{
+  padding: 10px;
+  border: 1px solid rgb(177, 71, 71);
+  color: rgb(177, 71, 71);
+  width: 150px;
+  text-align: center;
+  margin-top: 10px;
+}
+.explore-now:hover{
+  background-color: chocolate;
+  color: white;
+}
+.card:hover{
+  cursor: pointer;
+}
+  
